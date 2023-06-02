@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-US-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação fiscia :: </title>
+    <style>
+        body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+   label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 8px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.animated-image {
+  animation-name: slide;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+  outline: none;
+  border-color: #0066cc;
+}
+
+@media (max-width: 600px) {
+    form {
+        max-width: 300px;
+    }
+}
+
+
+
+.animated-image {
+    height: auto;
+    width: auto;
+}
+
+#menu {
+    display:inline;
+}
+#btn {
+    display: flex;
+   padding: 10px 20px;
+   font-size: 18px;
+   background-color: #4cf02b;
+   border: none;
+   cursor: pointer;
+   margin-top: 10px;
+
+}
+.image {
+    width:  15%;
+}
+
+ 
+    </style>
+</head>
+<body>
+   
+<script>
+
+
+
+</script>
+   
+
+
+   
+    <p>BEM VINDO AVALIÇÃO FISICA</p>
+    
+    <img  class="image"src="https://img.freepik.com/fotos-gratis/3d-rendem-de-uma-figura-masculina-com-um-mapa-detalhado-do-musculo_1048-5345.jpg">
+    <div id="menu">
+    <label for="name">Nome</label>
+    <input id="name" type="text" placeholder="Insira Seu Nome">
+    
+    <label for="altura">Altura</label>
+    <input id="altura" type="number" placeholder="Coloque sua altura">
+    
+    <label for="peso">Peso</label>
+    <input id="peso" type="number" placeholder="Digite seu peso">
+    <button id="btn" onclick="informacaoNutricional"> Restultado</button>
+    
+
+    
+    </div>
+    
+</body>
+</html>
